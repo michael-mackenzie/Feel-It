@@ -5,7 +5,7 @@ TweetScraper can get tweets from Twitter Search. It is built on Scrapy without u
 
 ## Sentiment Analysis
 
-Sentiment analysis was one using textblob.
+Sentiment analysis was done using textblob.
 From their documentation: TextBlob is a Python (2 and 3) library for processing textual data. It provides a simple API for diving into common natural language processing (NLP) tasks such as part-of-speech tagging, noun phrase extraction, sentiment analysis, classification, translation, and more.
 
 Textblob gives us a value in the range -1 to 1 representing how positive a tweet is. A value of -1 means the tweet is speaking badly about your query and a value of 1 means the tweet is speaking positively of your query.
